@@ -1,0 +1,20 @@
+{
+    "name": "stoncuan/belajar-php-composer-helo",
+    "description": "Library Composer Hello",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Stoncuan\\BelajarPhpComposerHelo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Stoncuan",
+            "email": "smacpalbawangun@gmail.com"
+        }
+    ],
+
+    "require": {
+        "php" : ">=8.0"
+    }
+}
