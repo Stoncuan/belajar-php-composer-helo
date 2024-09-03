@@ -6,7 +6,7 @@
 
         }
 
-        public function sayHello(string $name){
+        public function sayHello(string $name = "stonucan ganteng"){
             return "Hello $name, My Name Is $this->name";
         }
     }
